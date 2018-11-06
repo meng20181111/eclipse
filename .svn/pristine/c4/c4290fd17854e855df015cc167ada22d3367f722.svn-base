@@ -1,0 +1,14 @@
+package com.demo.bean;
+
+public class Node {
+
+    private int nid;
+
+    public int getNid() {
+        return nid;
+    }
+
+    public void setNid(int nid) {
+        this.nid = nid;
+    }
+}

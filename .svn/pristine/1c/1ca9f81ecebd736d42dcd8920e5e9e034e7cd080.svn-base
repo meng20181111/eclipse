@@ -1,0 +1,40 @@
+package com.demo.bean;
+
+public class Book {
+    private  int id1;
+    private String bookName;
+    private int  bookNum;
+private String  today;
+
+    public String getToday() {
+        return today;
+    }
+
+    public void setToday(String today) {
+        this.today = today;
+    }
+
+    public int getId() {
+        return id1;
+    }
+
+    public void setId(int id) {
+        this.id1 = id;
+    }
+
+    public String getBookName() {
+        return bookName;
+    }
+
+    public void setBookName(String bookName) {
+        this.bookName = bookName;
+    }
+
+    public int getBookNum() {
+        return bookNum;
+    }
+
+    public void setBookNum(int bookNum) {
+        this.bookNum = bookNum;
+    }
+}
